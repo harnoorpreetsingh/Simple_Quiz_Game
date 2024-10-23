@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Gamja+Flower&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="heading">
+            <h1>Welcome to the Quiz Game</h1>
+            <h2>There will be 10 questions based on HTML, CSS & JS.</h2>
+            <h2 id="h2i">Test your knowledge by answering'em all:</h2>
+                <hr>
+                <div class="playarea">
+                    <div class="question" id="question"> Question
+                    </div>
+                    <hr>
+                    <ul>
+                        <li><input type="radio" name="answer" class="answer" id="a">
+                        <label for="a" id="option1" class="optn">options</label>
+                        </li>
+                        <li><input type="radio" name="answer" class="answer" id="b">
+                        <label for="b" id="option2" class="optn">options</label>
+                        </li>
+                        <li><input type="radio" name="answer" class="answer" id="c">
+                        <label for="c" id="option3" class="optn">options</label>
+                        </li>
+                        <li><input type="radio" name="answer" class="answer" id="d">
+                        <label for="d" id="option4" class="optn">options</label>
+                        </li>
+                    </ul>
+                    <hr>
+                    <hr>
+                    <div class="btn">
+                        <button type="submit" id="submit" >Submit</button>
+                        <button type="reset" id="reset" >Restart the Game</button>
+
+                    </div>
+                    <hr>
+                </div>
+        </div>
+    </div>
+   
+    <script src="script.js"></script>
+</body>
+</html>

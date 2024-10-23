@@ -1,0 +1,110 @@
+*{
+  font-family: "Gamja Flower", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.container{
+      display: flex; 
+     align-items: center;
+     justify-content: center; 
+}
+.heading{
+    /* display: flex; */
+    /* align-items: center; */
+    text-align: center;
+    /* background-color: aqua; */
+}
+.question{
+    color: rgb(52, 52, 101);
+    font-style: normal;
+    font-weight: 700;
+    font-size: xxx-large;
+    text-shadow: 0 4px 10px rgb(127, 127, 223);;
+
+}
+.optn:hover{
+    font-size: 40px;
+    color: green;
+    text-shadow: 0 4px 10px rgb(142, 207, 128);;
+}
+li{
+    display: flex;
+    list-style-type: none; /* Remove bullets */
+    align-items: flex-start;
+    font-size: x-large;
+    font-weight: bolder;
+}   
+.answer:hover{  
+   cursor: pointer;
+   background-color: aquamarine;
+}
+
+.playarea{
+    border: 2px solid rgb(0, 0, 0);
+    border-style: dotted;
+    height: 50vh;
+    width: 60vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.playarea:hover{
+    border-spacing: ;
+}
+
+.btn{
+    gap: 8px;
+    display: flex;
+    /* align-items: center; */
+    justify-content: center;
+    /* height: 20px; */
+}
+#submit{
+    border: 1px solid green;
+    color: white;
+    border-radius: 2px;
+    background-color: #52ce62;
+}
+#reset{
+    background-color: #feb47b;
+
+    border: 1px solid rgb(174, 174, 118);
+    color: white;
+    border-radius: 2px;
+}
+
+
+#submit:hover{
+    transition: all .2s ease-in-out; 
+    transform: scale(1.8); 
+    background-color: green;
+    color: white;
+    cursor: pointer;
+}
+#reset:hover{
+    transition: all .2s ease-in-out; 
+    transform: scale(1.8); 
+    background-color: rgb(158, 158, 120);
+    color: white;
+    cursor: pointer;
+}
+h1{
+    background: linear-gradient(to right, #ff7e5f, #feb47b);
+    -webkit-background-clip: text;
+    color: transparent;
+    font-size: 3em;
+    font-weight: bold;
+}
+h2{
+    background-image: linear-gradient(to right, red, orange, rgb(101, 101, 51), green, blue, indigo, violet);
+    -webkit-background-clip: text;
+    color: transparent;
+}
+#h2i{
+    background-image: linear-gradient(to right, rgb(16, 192, 66), rgb(51, 46, 143), rgb(101, 101, 51), green, blue, indigo, violet);
+    -webkit-background-clip: text;
+    color: transparent;
+}
